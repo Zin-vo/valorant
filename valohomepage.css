@@ -1,0 +1,116 @@
+body {
+    background-color: #1c1c1c;
+    background-image: url('imgs/valorant-305kescxw5dpup7y.jpg');
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+
+}
+
+.bgim {
+    color: white;
+}
+
+.bgim h1 {
+    color: red;
+    font-size: 60px;
+}
+
+.button {
+    background-color: red;
+    padding: 20px;
+    border-radius: 60px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0,0,1,1);
+    color: black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px rgb(9, 169, 222);
+    padding: 25px;
+    
+}
+
+/*login*/  
+
+
+  
+/*login*/
+
+.logo {
+   border-radius: 60px;
+   margin-right: 905px;
+   display: inline;
+    
+}
+
+nav ul {
+    background-color: red;
+    padding: 20px;
+    margin: 0% auto;
+    border-radius: 20px;
+    float: right ;
+    box-shadow: 0px 0px 10px rgba(0,0,1,1);
+    display: inline;
+
+}
+
+.navs {
+    background-color: #1c1c1c;
+    padding: 20px;
+    margin: 0% auto;
+    border-radius: 20px;
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+
+.navs:hover {
+    background-color: white;
+    padding: 20px;
+    margin: 0% auto;
+    border-radius: 20px;
+    display: inline;
+    text-decoration: none;
+    color: red;
+}
+
+.navig {
+    position: sticky;
+    top: 0%;
+    display: inline;
+}
+
+.homeimg {
+  margin: 0%;
+}
+
+.agentshp {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,1,1);
+    background-color: red;
+    color: black;
+    margin-top: 1000px;
+}
+
+.agentshp:hover {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 65px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,1,1);
+    background-color: white;
+    color: black;
+     -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+            
