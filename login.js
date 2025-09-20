@@ -3,6 +3,7 @@ const signupTab = document.getElementById('signupTab');
 const loginForm = document.getElementById('loginForm');
 const signupForm = document.getElementById('signupForm');
 
+// Switch Tabs
 loginTab.addEventListener('click', () => {
   loginTab.classList.add('active');
   signupTab.classList.remove('active');
@@ -17,12 +18,37 @@ signupTab.addEventListener('click', () => {
   loginForm.classList.remove('active');
 });
 
+// Handle Login
 loginForm.addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Logged in! (Fake login for demo only)');
+
+  const username = document.getElementById("loginUsername").value;
+  const password = document.getElementById("loginPassword").value;
+
+  const storedUsername = localStorage.getItem("username");
+  const storedPassword = localStorage.getItem("password");
+
+  if (username === storedUsername && password === storedPassword) {
+    alert("Login successful!");
+    window.location.href = "index.html"; // Redirect to homepage
+  } else {
+    alert("Invalid username or password!");
+  }
 });
 
+// Handle Signup
 signupForm.addEventListener('submit', function (e) {
   e.preventDefault();
-  alert('Signed up! (Fake signup for demo only)');
+
+  const username = document.getElementById("signupUsername").value;
+  const password = document.getElementById("signupPassword").value;
+
+  // Save user data
+  localStorage.setItem("username", username);
+  localStorage.setItem("password", password);
+
+  alert("Signup successful! You can now login.");
+  
+  // Switch back to login tab automatically
+  loginTab.click();
 });
