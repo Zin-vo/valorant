@@ -1,7 +1,7 @@
 body {
     background-color: #1c1c1c;
     background-image: url('valoimgs/d0db663bf28844dcbd744935cdd8c71083e0031c-5600x3150.jpg');
-    background-size: 5000px 15000px;
+    background-size: cover;
     background-repeat: no-repeat
 }
 
@@ -115,6 +115,7 @@ nav ul {
 }
 
             
+
 
 
 
