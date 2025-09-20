@@ -7,8 +7,6 @@
   <link rel="stylesheet" href="./login.css" />
 </head>
 <body>
-
-
   <div class="auth-container">
     <div class="auth-card">
       <h1>VALORANT</h1>
@@ -18,16 +16,18 @@
         <button id="signupTab" class="tab">Sign Up</button>
       </div>
 
+      <!-- Login Form -->
       <form id="loginForm" class="form active">
-        <input type="text" placeholder="Riot ID" required />
-        <input type="password" placeholder="Password" required />
+        <input type="text" id="loginUsername" placeholder="Riot ID" required />
+        <input type="password" id="loginPassword" placeholder="Password" required />
         <button type="submit">Login</button>
       </form>
 
+      <!-- Signup Form -->
       <form id="signupForm" class="form">
-        <input type="text" placeholder="Riot ID" required />
-        <input type="email" placeholder="Email" required />
-        <input type="password" placeholder="Password" required />
+        <input type="text" id="signupUsername" placeholder="Riot ID" required />
+        <input type="email" id="signupEmail" placeholder="Email" required />
+        <input type="password" id="signupPassword" placeholder="Password" required />
         <button type="submit">Sign Up</button>
       </form>
 
@@ -35,9 +35,9 @@
     </div>
   </div>
 
-  
   <script src="login.js"></script>
 </body>
-
 </html>
+
+
 
