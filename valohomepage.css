@@ -79,7 +79,7 @@ nav ul {
 .navig {
     position: sticky;
     top: 0%;
-    display: inline;
+    display: flex;
 }
 
 .homeimg {
@@ -113,4 +113,5 @@ nav ul {
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.2); 
 }
+
             
