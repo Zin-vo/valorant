@@ -5,6 +5,12 @@ body {
     background-repeat: no-repeat;
 }
 
+.main {
+    background-image: url('valoimgs/d0db663bf28844dcbd744935cdd8c71083e0031c-5600x3150.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 .bgim {
     color: white;
@@ -115,6 +121,7 @@ nav ul {
 }
 
             
+
 
 
 
