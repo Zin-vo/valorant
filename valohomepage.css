@@ -55,6 +55,8 @@ body {
     text-decoration: none;
     color: white;
     display: inline;
+    margin-left: 500px;
+    margin-top:-10px;
 }
 
 .navs:hover {
@@ -114,6 +116,7 @@ navig ul{
 }
 
             
+
 
 
 
