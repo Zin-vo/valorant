@@ -46,14 +46,12 @@ body {
    border-radius: 20%;
    margin-right: 905px;
    margin-top: 10px;
-    display: flex-inline;
 }
 
 
 
 .navs {
     margin: 30px;
-    display: flex-inline;
     text-decoration: none;
     color: white;
 }
@@ -66,7 +64,7 @@ body {
 .navig {
     position: sticky;
     top: 0%;
-    display: flex-inline;
+    display: flex;
 }
 
 .homeimg {
@@ -111,6 +109,7 @@ body {
 }
 
             
+
 
 
 
