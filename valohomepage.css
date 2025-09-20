@@ -43,9 +43,10 @@ body {
 /*login*/
 
 .logo {
-   border-radius: 60px;
+   border-radius: 20%;
    margin-right: 905px;
    display: inline;
+   margin-top: 10px;
     
 }
 
@@ -111,6 +112,7 @@ body {
 }
 
             
+
 
 
 
