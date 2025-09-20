@@ -67,6 +67,11 @@ body {
     display: flex;
 }
 
+navig ul{
+    display: flex;
+    margin: 30px;
+}
+
 .homeimg {
   margin: 0%;
 }
@@ -109,6 +114,7 @@ body {
 }
 
             
+
 
 
 
