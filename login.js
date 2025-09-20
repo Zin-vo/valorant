@@ -30,9 +30,9 @@ loginForm.addEventListener('submit', function (e) {
 
   if (username === storedUsername && password === storedPassword) {
     alert("Login successful!");
-    window.location.href = "index.html"; // Redirect to homepage
+    window.location.href = "index.html"; // Redirect to home
   } else {
-    alert("Invalid username or password!");
+    alert("Invalid Riot ID or password!");
   }
 });
 
@@ -41,14 +41,18 @@ signupForm.addEventListener('submit', function (e) {
   e.preventDefault();
 
   const username = document.getElementById("signupUsername").value;
+  const email = document.getElementById("signupEmail").value;
   const password = document.getElementById("signupPassword").value;
 
-  // Save user data
+  // Save user data (simple demo, only one user)
   localStorage.setItem("username", username);
+  localStorage.setItem("email", email);
   localStorage.setItem("password", password);
 
   alert("Signup successful! You can now login.");
   
-  // Switch back to login tab automatically
+  // Switch to login tab
   loginTab.click();
 });
+
+
