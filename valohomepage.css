@@ -54,6 +54,7 @@ body {
     margin: 30px;
     text-decoration: none;
     color: white;
+    display: inline;
 }
 
 .navs:hover {
@@ -64,11 +65,11 @@ body {
 .navig {
     position: sticky;
     top: 0%;
-    display: flex;
+    display: inline;
 }
 
 navig ul{
-    display: flex;
+    display: inline;
 }
 
 .homeimg {
@@ -113,6 +114,7 @@ navig ul{
 }
 
             
+
 
 
 
