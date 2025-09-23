@@ -94,6 +94,7 @@ navig ul{
     text-decoration: none;
     font-size: 20px;
     padding: 5px;
+    border-radius: 0%;
     box-shadow: 0px 0px 10px rgba(0,0,1,1);
     background-color: red;
     color: black;
@@ -116,6 +117,7 @@ navig ul{
 }
 
             
+
 
 
 
