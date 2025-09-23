@@ -1,4 +1,4 @@
-body {
+body{
     background-color: #1c1c1c;
     margin: 0;
 }
@@ -10,16 +10,16 @@ body {
 }
 
 
-.bgim {
+.bgim{
     color: white;
 }
 
-.bgim h1 {
+.bgim h1{
     color: #FFFFFF;
     font-size: 60px;
 }
 
-.button {
+.button{
     background-color: red;
     padding: 20px;
     border-radius: 60px;
@@ -28,7 +28,7 @@ body {
     color: black;
 }
 
-.button:hover {
+.button:hover{
     background-color: black;
     color: white;
     box-shadow: 0 0 10px rgb(9, 169, 222);
@@ -48,7 +48,7 @@ body {
    margin-top: 10px;
 }
 
-.main navig navs {
+.navs{
     margin-left: 300px;
     text-decoration: none;
     font-size: 20px;
@@ -56,12 +56,12 @@ body {
 
 
 
-.navs:hover {
+.navs:hover{
     text-decoration: none;
     color: red;
 }
 
-.navig {
+.navig{
     position: sticky;
     top: 0%;
     display: inline;
@@ -73,7 +73,7 @@ navig ul{
     margin-top:-10px;
 }
 
-.homeimg {
+.homeimg{
   margin: 0%;
 }
 
@@ -85,7 +85,7 @@ navig ul{
     margin-bottom: 50px;
 }
 
-.agentshp {
+.agentshp{
     float: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -99,7 +99,7 @@ navig ul{
     margin-bottom:100px;
 }
 
-.agentshp:hover {
+.agentshp:hover{
     float: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -113,12 +113,12 @@ navig ul{
   transform: scale(1.2); 
 }
 
-.download {
+.download{
     background-color: gray;
     padding: 50px;
 }
 
-.dl {
+.dl{
     font-size: 15px;
     padding: 10px;
     background-color: darkgray;
@@ -129,6 +129,7 @@ navig ul{
 
 
             
+
 
 
 
