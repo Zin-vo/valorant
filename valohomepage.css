@@ -113,7 +113,19 @@ navig ul{
   transform: scale(1.2); 
 }
 
+.download {
+    background-color: gray;
+}
+
+.dl {
+    font-size: 15px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+
             
+
 
 
 
