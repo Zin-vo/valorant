@@ -115,6 +115,7 @@ navig ul{
 
 .download {
     background-color: gray;
+    padding: 50px;
 }
 
 .dl {
@@ -123,10 +124,12 @@ navig ul{
     background-color: darkgray;
     margin-top: 100px;
     margin-bottom: 100px;
+    text-decoration: none;
  }
 
 
             
+
 
 
 
