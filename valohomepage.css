@@ -90,10 +90,9 @@ navig ul{
 
 .agentshp {
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 400px;
     text-decoration: none;
     font-size: 50px;
-    padding: 60px;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,1,1);
     background-color: red;
@@ -119,6 +118,7 @@ navig ul{
 }
 
             
+
 
 
 
