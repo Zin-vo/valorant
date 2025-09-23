@@ -92,7 +92,7 @@ navig ul{
     float: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 20px;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,1,1);
@@ -106,7 +106,7 @@ navig ul{
     float: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 20px;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0,0,1,1);
@@ -118,6 +118,7 @@ navig ul{
 }
 
             
+
 
 
 
