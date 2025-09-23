@@ -48,6 +48,12 @@ body {
    margin-top: 10px;
 }
 
+.navs {
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+
 
 .navs:hover {
     text-decoration: none;
@@ -107,6 +113,7 @@ navig ul{
 }
 
             
+
 
 
 
