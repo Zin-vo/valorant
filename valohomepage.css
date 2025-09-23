@@ -49,16 +49,6 @@ body {
 }
 
 
-
-.main navs {
-    margin: 30px;
-    text-decoration: none;
-    color: white;
-    display: inline;
-    margin-left: 500px;
-    margin-top:-10px;
-}
-
 .navs:hover {
     text-decoration: none;
     color: red;
@@ -117,6 +107,7 @@ navig ul{
 }
 
             
+
 
 
 
