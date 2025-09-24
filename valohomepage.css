@@ -130,8 +130,18 @@ navig ul{
     color: white;
  }
 
+.contact{
+    padding: 20px;
+}
 
+.socials{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin: 100px;
+    display: flex;
+}
             
+
 
 
 
